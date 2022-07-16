@@ -1,0 +1,14 @@
+module Vultr
+  class Collection
+
+    attr_reader data: Hash[String, untyped]
+    attr_reader total: Integer
+    attr_reader next_cursor: String
+    attr_reader prev_cursor: String
+
+
+    def initialize: (data:Hash[String, untyped], total:Integer, next_cursor:String, prev_cursor:String) -> void
+
+    def self.from_response: (response: Hash[String, untyped], key: String, type: Class) -> void
+  end
+end
