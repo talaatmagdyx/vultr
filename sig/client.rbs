@@ -1,0 +1,12 @@
+module Vultr
+  class Client
+    BASE_URL: String
+
+    attr_reader api_key: String
+    attr_reader adapter: Symbol
+
+    def initialize: (api_key: String, adapter: Symbol) -> void
+
+    def connection: () -> void
+  end
+end

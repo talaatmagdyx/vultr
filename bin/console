@@ -11,5 +11,7 @@ require "vultr"
 # require "pry"
 # Pry.start
 
+client = Vultr::Client.new(api_key: ENV['VULTR_API_KEY'])
+
 require "irb"
 IRB.start(__FILE__)
