@@ -1,0 +1,5 @@
+module Vultr
+  class Object
+    def initialize: (attributes: Hash[[String | Symbol], untyped]) -> void
+  end
+end
