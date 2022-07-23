@@ -7,8 +7,13 @@ module Vultr
   autoload :Collection, "vultr/collection"
   autoload :Object, "vultr/object"
   autoload :Error, "vultr/error"
+  autoload :Resource, "vultr/resource"
 
   autoload :Account, "vultr/objects/account"
   autoload :Instance, "vultr/objects/instance"
   autoload :Plan, "vultr/objects/plan"
+
+  autoload :AccountResource, "vultr/resources/account"
+  autoload :PlansResource, "vultr/resources/plans"
+
 end
