@@ -1,0 +1,23 @@
+module Vultr
+  class Resource
+
+    attr_reader client:  class
+
+    def initialize: (class client ) -> void
+
+    def get_request: (string url, params: Hash[string | Symbol, untyped], headers: Hash[string | Symbol, untyped]) -> OpenStruct
+
+    def post: (string url, body: Hash[string | Symbol, untyped], headers: Hash[string | Symbol, untyped]) -> OpenStruct
+
+    def patch: (string url, body: Hash[string | Symbol, untyped], headers: Hash[string | Symbol, untyped]) -> OpenStruct
+
+    def put: (string url, body: Hash[string | Symbol, untyped], headers: Hash[string | Symbol, untyped]) -> OpenStruct
+
+    def delete: (string url, params: Hash[string | Symbol, untyped], headers: Hash[string | Symbol, untyped]) -> OpenStruct
+
+    def default_headers: () -> Hash[string | Symbol, untyped]
+
+    def handle_response: (OpenStruct response) -> OpenStruct
+
+  end
+end

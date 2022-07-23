@@ -1,0 +1,5 @@
+module Vultr
+  class PlansResource
+    def list: (per_page: int, cursor: string) -> Collection
+  end
+end

@@ -1,0 +1,5 @@
+module Vultr
+  class AccountResource
+    def info: () -> untyped
+  end
+end
