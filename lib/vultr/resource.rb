@@ -31,7 +31,7 @@ module Vultr
     end
 
     def handle_response(response)
-      message = response.body["error"]
+      message = (response.body || {})["error"]
       case response.status
       when 400
         raise Error, message
