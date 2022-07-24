@@ -1,0 +1,18 @@
+module Vultr
+  class UsersResource
+    def list: (per_page: int | nil, cursor: string | nil) -> Collection
+
+    def create: (**Hash[string | Symbol, untyped] attributes) -> User
+
+    def retrieve: (user_id: string) -> User
+
+    def update: (user_id: string, **Hash[string | Symbol, untyped] attributes) -> bool
+
+    def delete: (user_id: string) -> bool
+  end
+end
+
+module Vultr
+  class User
+  end
+end
