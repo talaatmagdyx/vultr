@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors = ["talaatmagdyx"]
   spec.email = ["talaatmagdy75@gmail.com"]
 
-  spec.summary = " Write a short summary, because RubyGems requires one."
-  spec.description = "Write a longer description or delete this line."
+  spec.summary = "Ruby bindings for VULTR API. API Wrapper"
+  spec.description = "Ruby bindings for VULTR API. VULTR APIs can be found here: https://www.vultr.com/api/"
   spec.homepage = "https://github.com/talaatmagdyx/vultr"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"

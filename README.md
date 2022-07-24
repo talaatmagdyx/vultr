@@ -1,8 +1,11 @@
 # Vultr
+This clone [vultr.rb](https://github.com/tolbkni/vultr.rb) Gem for Educational purpose Only.
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/vultr`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+What do you learn after this experiment ?
+- Ruby bindings for API (API Wrapper).
+- Full Unit Test for API Wrapper.
+- use new features like **rbs** 
+- use ruby 3.1.2
 
 ## Installation
 
